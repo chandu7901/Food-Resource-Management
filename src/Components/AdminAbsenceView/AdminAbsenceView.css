@@ -1,0 +1,104 @@
+:root {
+  --lightBlue: #3498db;
+  --darkBlue: #142850;
+  --white: #f4f4f4;
+}
+
+#content {
+  color: white;
+  height: 50%;
+  width: 50%;
+  background-color: #2189ce;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  padding: 15px;
+  border-radius: 5px;
+}
+.navbarAdmin {
+  background-color: #142850;
+  position: relative;
+  top: -7.8px;
+  width: 100.3%;
+  height: 90px;
+  left: -7px;
+  padding: 0px;
+}
+
+.nav-contentsAdmin {
+  color: white;
+  float: right;
+  margin: 35px 30px 0px 30px;
+  text-decoration: none;
+}
+
+.nav-contentsAdmin:hover {
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(14, 11, 11, 0.5);
+  transform: scale(1.005);
+}
+#no_of_users {
+  position: relative;
+  top: 0px;
+}
+
+#no_of_lunch_responces {
+  position: relative;
+  top: 100px;
+}
+
+#no_of_dinner_responces {
+  position: relative;
+  top: 150px;
+}
+
+#data_first {
+  position: relative;
+  top: 10%;
+  left: 30%;
+}
+
+#data_second {
+  position: relative;
+  top: 35%;
+  left: 30%;
+}
+
+#data_third {
+  position: relative;
+  top: 50%;
+  left: 30%;
+}
+
+#message-box {
+  color: white;
+  height: 30%;
+  padding: 15px;
+  width: 50%;
+  background-color: #2189ce;
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  border-radius: 5px;
+}
+
+textarea {
+  margin-top: 10px;
+  height: 45%;
+  width: 98%;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 5px;
+}
+textarea:focus {
+  border: 1px solid #888;
+  outline: none;
+}

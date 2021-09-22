@@ -1,0 +1,478 @@
+.parallax {
+  height: 500px; /* fallback for older browsers */
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+}
+
+.parallax__group {
+  position: relative;
+  height: 500px; /* fallback for older browsers */
+  height: 100vh;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.parallax__layer--fore {
+  -webkit-transform: translateZ(90px) scale(0.7);
+  transform: translateZ(90px) scale(0.7);
+  z-index: 1;
+}
+
+.parallax__layer--base {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 4;
+}
+
+.parallax__layer--back {
+  -webkit-transform: translateZ(-300px) scale(2);
+  transform: translateZ(-300px) scale(2);
+  z-index: 3;
+}
+
+.parallax__layer--deep {
+  -webkit-transform: translateZ(-600px) scale(3);
+  transform: translateZ(-600px) scale(3);
+  z-index: 2;
+}
+
+/* demo styles
+  --------------------------------------------- */
+
+/* centre the content in the parallax layers *
+
+
+  /* style the groups
+  --------------------------------------------- */
+
+#group1 {
+  z-index: 3; /* slide under groups 1 and 3 */
+}
+#group1 .parallax__layer--deep {
+  background-color: #3098f3;
+}
+
+#group2 {
+  z-index: 3; /* slide over group 7 */
+}
+#group2 .parallax__layer--base {
+  background-color: white;
+}
+#group3 {
+  z-index: 3; /* slide over group 7 */
+}
+#group3 .parallax__layer--base {
+  background-color: #3098f3;
+}
+
+/* misc
+  --------------------------------------------- */
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+#circle2 {
+  position: absolute;
+  top: 55%;
+  left: 63%;
+  background-color: #ed7075;
+  animation-name: circle_ani_2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes circle_ani_2 {
+  0% {
+    top: 55%;
+    left: 63%;
+  }
+  25% {
+    top: 43%;
+    left: 68%;
+  }
+  50% {
+    top: 80%;
+    left: 36%;
+  }
+  75% {
+    top: 27%;
+    left: 27%;
+  }
+  100% {
+    top: 55%;
+    left: 63%;
+  }
+}
+#circle3 {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  background-color: #132c4d;
+  animation-name: circle_ani_3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes circle_ani_3 {
+  0% {
+    top: 60%;
+    left: 60%;
+  }
+  25% {
+    top: 20%;
+    left: 40%;
+  }
+  50% {
+    top: 33%;
+    left: 86%;
+  }
+  75% {
+    top: 40%;
+    left: 47%;
+  }
+  100% {
+    top: 60%;
+    left: 60%;
+  }
+}
+#circle1 {
+  position: absolute;
+  top: 50%;
+  left: 66%;
+  background-color: #f8cd46;
+  animation-name: circle_ani_1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes circle_ani_1 {
+  0% {
+    top: 50%;
+    left: 66%;
+  }
+  25% {
+    top: 30%;
+    left: 80%;
+  }
+  50% {
+    top: 65%;
+    left: 66%;
+  }
+  75% {
+    top: 80%;
+    left: 75%;
+  }
+  100% {
+    top: 50%;
+    left: 66%;
+  }
+}
+.half_circle {
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 150px 150px;
+}
+#half_circle1 {
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  background-color: white;
+  animation-name: rotate1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate1 {
+  0% {
+    transform: rotate(0deg);
+    top: 70%;
+    left: 70%;
+  }
+  25% {
+    transform: rotate(90deg);
+    top: 50%;
+    left: 50%;
+  }
+  50% {
+    transform: rotate(45deg);
+    top: 45%;
+    left: 60%;
+  }
+  75% {
+    transform: rotate(90deg);
+    top: 30%;
+    left: 80%;
+  }
+  100% {
+    transform: rotate(0deg);
+    top: 70%;
+    left: 70%;
+  }
+}
+#half_circle2 {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  background-color: #ed7075;
+  animation-name: rotate2;
+  animation-duration: 4s;
+  transform: rotate(-45deg);
+  animation-iteration-count: infinite;
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotate(-45deg);
+    top: 50%;
+    left: 80%;
+  }
+  25% {
+    transform: rotate(71deg);
+    top: 60%;
+    left: 89%;
+  }
+  50% {
+    transform: rotate(35deg);
+    top: 24%;
+    left: 70%;
+  }
+  75% {
+    transform: rotate(15deg);
+    top: 30%;
+    left: 80%;
+  }
+  100% {
+    transform: rotate(-45deg);
+    top: 50%;
+    left: 80%;
+  }
+}
+#Title {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 150%;
+
+  color: white;
+}
+#message {
+  position: relative;
+  top: 30%;
+  left: 10%;
+  height: 360px;
+  width: 500px;
+  background-color: #f2eae2;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.9;
+}
+#message_heading {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.button {
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#Loign_user {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  background-color: #3098f3;
+  color: #ffffff;
+}
+#Loign_garage {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  background-color: white;
+  color: #3098f3;
+}
+#user_heading {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 500px;
+}
+#garage_heading {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 450px;
+  color: white;
+}
+#Signup_user {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  background-color: #3098f3;
+  color: #ffffff;
+}
+#Signup_garage {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  background-color: white;
+  color: #3098f3;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0%;
+  left: 70%;
+  width: 500px;
+}
+
+.cardLand {
+  width: 150px;
+  height: 150px;
+  perspective: 1500px;
+  position: relative;
+  margin: 25px 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+
+.icon,
+.snapshot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform-origin: left;
+  transition: all 0.3s;
+  font-size: 60px;
+  color: #fff;
+}
+
+.cardLand:first-child .icon {
+  background-color: #3b5998;
+}
+
+.cardLand:nth-child(2) .icon {
+  background-color: #ea4c89;
+}
+
+.cardLand:last-child .icon {
+  background-color: #00acee;
+}
+
+.snapshot {
+  background-size: cover;
+  text-align: center;
+  font-size: 120%;
+}
+
+.cardLand:first-child .snapshot {
+}
+
+.cardLand:nth-child(2) .snapshot {
+}
+
+.cardLand:last-child .snapshot {
+}
+
+.cardLand:hover .icon {
+  transform: rotateY(-120deg);
+}
+
+.container:hover .cardLand {
+  filter: blur(1px);
+}
+
+.container .cardLand:hover {
+  filter: blur(0);
+  transform: translateY(-10px) rotate(-10deg);
+}
+#mistake_cover {
+  height: 100%;
+  width: 50px;
+  background-color: #3098f3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#user_login {
+  width: 40%;
+  height: 100%;
+}
+#garage_login {
+  width: 40%;
+  height: 100%;
+}
+#features {
+  font-size: 100%;
+  color: #3098f3;
+}
+.features {
+  position: absolute;
+  left: 45%;
+  font-size: 120%;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  border-bottom: 2px solid orange;
+}
+.CredA:hover {
+  border-bottom: none;
+}

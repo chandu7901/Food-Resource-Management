@@ -1,0 +1,42 @@
+.box {
+  text-align: center;
+}
+#edit_btn {
+  position: relative;
+  float: left;
+  left: 45%;
+}
+.food_wastage_update_new {
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #dedede;
+  width: 60%;
+  position: relative;
+  top: 60px;
+  left: 20%;
+}
+.content_new {
+  position: relative;
+  padding: 10px;
+}
+.field__input_new {
+  margin: 20px;
+  border-radius: 5px;
+  margin-left: 250px;
+  border: #dedede;
+  padding: 10px;
+}
+.field__input_new :focus {
+  transform: scale(1.5);
+}
+.Update_btn_new {
+  position: relative;
+  left: -10%;
+}
+.save_btn_new {
+  position: relative;
+  left: -36%;
+  margin: 150px 50px 20px 50px;
+}

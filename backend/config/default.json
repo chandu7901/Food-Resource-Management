@@ -1,0 +1,4 @@
+{
+    "mongouri":"mongodb+srv://deepak:deepak123@cluster0.fdt0r.mongodb.net/mainDB?retryWrites=true&w=majority",
+    "jwtSecret":"designthink123"
+}

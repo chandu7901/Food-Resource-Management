@@ -1,0 +1,186 @@
+:root {
+  --lightBlue: #3498db;
+  --darkBlue: #142850;
+  --white: #f4f4f4;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--lightBlue);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.bg {
+  position: fixed;
+  transform: scale(0.87);
+  top: -150px;
+}
+body {
+  background-color: #f4f4f4;
+}
+.login {
+  position: relative;
+  top: -0px;
+  margin-right: 160px;
+  float: right;
+  width: 420px;
+  height: 500px;
+  background-color: var(--lightBlue);
+  color: white;
+  border-radius: 10px;
+}
+.signvec {
+  transform: scale(0.9);
+  position: relative;
+  margin-top: 200px;
+  left: 70px;
+}
+.signin {
+  position: relative;
+  margin-top: -60px;
+  margin-right: 80px;
+  float: right;
+  width: 580px;
+  height: 580px;
+  background-color: var(--lightBlue);
+  color: white;
+  border-radius: 10px;
+}
+.signin input {
+  position: relative;
+  left: -20px;
+}
+.signin div {
+  display: inline-flex;
+}
+.signin div input {
+  width: 190px;
+  margin-right: 20px;
+}
+
+.vec1 {
+  transform: scale(0.9);
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+.inputs {
+  position: relative;
+  top: 15%;
+  margin-left: 15%;
+}
+.inputs input {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 2;
+  font-size: 1rem;
+  padding: 5px;
+  border: 2px solid var(--lightBlue);
+  padding: 10px;
+  outline: none;
+  width: 18rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+}
+.buttons {
+  position: relative;
+  top: 120px;
+  left: 40%;
+  outline: none;
+  background-color: var(--darkBlue);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.09rem;
+}
+.buttons1 {
+  outline: none;
+  background-color: var(--darkBlue);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  border-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.09rem;
+}
+.btnsgn {
+  top: -10px;
+  left: -38%;
+  width: 40%;
+}
+
+.btnsgnfinal {
+  top: -20px;
+  left: -37%;
+  width: 40%;
+}
+.head {
+  position: relative;
+  top: 120px;
+  margin-left: 90px;
+  font-size: 64px;
+}
+@media only screen and (max-width: 1217px) {
+  .signvec,
+  .vec1 {
+    position: absolute;
+    top: -900px;
+  }
+  .head {
+    position: relative;
+    top: 50px;
+    margin-left: 10px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .signin {
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -10%);
+    width: 540px;
+    height: 580px;
+    background-color: var(--lightBlue);
+    color: white;
+    border-radius: 10px;
+  }
+  .login {
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    transform: translate(-50%, -10%);
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 743px) {
+  inputs,
+  .signinp {
+    position: relative;
+    left: -5%;
+  }
+}

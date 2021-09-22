@@ -1,0 +1,43 @@
+.accordion {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  position: relative;
+  left: -15%;
+}
+
+.panel {
+  display: none;
+}
+
+.panel_1 {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  left: 14%;
+  width: 72%;
+}
+.display_list_User {
+  background-color: white;
+  border-radius: 10px;
+  height: fit-content;
+  width: auto;
+  padding: 15px;
+  margin: 15px;
+  list-style: none;
+}
+
+.messages {
+  position: relative;
+  padding: 40px;
+  margin-left: 30%;
+  font-weight: 600;
+  font-size: x-large;
+}

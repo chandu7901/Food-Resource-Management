@@ -1,0 +1,56 @@
+body {
+  background-color: #f4f4f4;
+}
+
+#Profile {
+  background-color: white;
+  position: relative;
+  left: 7%;
+  top: 30px;
+  height: 560px;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+}
+#profile_pic {
+  position: relative;
+  left: 35%;
+}
+#User_info {
+  columns: 2;
+  column-gap: 0px;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  font-size: 120%;
+}
+.stats {
+  background-color: white;
+  position: absolute;
+  left: 52%;
+  top: 16.6%;
+  height: 560px;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Statistics {
+  position: relative;
+  left: 22%;
+  top: 2%;
+  width: 0%;
+}
+#Number {
+  background-color: black;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 3%;
+  top: 1%;
+  margin: auto;
+  font-size: 600%;
+  color: white;
+  text-align: center;
+  line-height: 180px;
+}

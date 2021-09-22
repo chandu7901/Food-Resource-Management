@@ -1,0 +1,129 @@
+input {
+  height: 30px;
+  width: 200px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.button_add {
+  position: absolute;
+  left: 55%;
+  top: 4px;
+}
+.Update_btn {
+  position: relative;
+  left: -10%;
+}
+.delete_btn {
+  position: relative;
+  top: -50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: auto;
+  height: 80px;
+  padding: 15px;
+  margin: 15px;
+  list-style: none;
+}
+
+.display_list {
+  width: auto;
+  height: 80px;
+  padding: 15px;
+  margin: 15px;
+  list-style: none;
+}
+
+.card h4 {
+  margin-top: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(14, 11, 11, 0.5);
+}
+/* .TimeTable {
+  width: 60%;
+  position: relative;
+  padding: 10px;
+  top: 30px;
+  left: 20%;
+} */
+.content {
+  position: relative;
+  padding: 10px;
+}
+.field__input {
+  margin: 20px;
+  border-radius: 5px;
+}
+.field__input :focus {
+  transform: scale(1.5);
+}
+.Lunch_content {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #dedede;
+}
+.Dinner_content {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #dedede;
+}
+.food_wastage_update {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #dedede;
+  width: 60%;
+  position: relative;
+  top: 60px;
+  left: 10%;
+}
+.save_btn {
+  position: relative;
+  left: -49%;
+  margin: 80px 50px 20px 50px;
+}
+
+#menu_items {
+  position: relative;
+  left: 45%;
+}
+
+.Menu_Items {
+  width: 60%;
+  position: relative;
+  padding: 10px;
+  top: 30px;
+  left: 10%;
+}
+
+#Date_Time {
+  background-color: #3598db;
+  height: 150px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  left: 75%;
+  top: 23%;
+  color: white;
+  border-radius: 10px;
+}
+#Note_div {
+  background-color: #3598db;
+  height: 150px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  left: 75%;
+  top: 50%;
+  color: white;
+  border-radius: 10px;
+}

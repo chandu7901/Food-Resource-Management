@@ -1,0 +1,39 @@
+Common Data: - 
+Date, Time
+
+Statistics: -
+total prepared food, total users, List(7) total wasted(Lunch & Dinner), List(7) total absence(Lunch & Dinner)
+
+Admin Details: -
+Incharge Name
+
+Items: -
+list(Lunch & Dinner)
+
+Credentials(Login): -
+Email,Password(Lunch & Dinner)
+
+Credentials(Signup): -
+First Name, Last Name(Admin=Incharge Name in Admin Details, User)
+Email,Password,Confirm Password(Admin & User = Credentials)
+
+Absent Request: -
+AbsentL, AbsentD
+
+Home Page(Items View): -
+list(=Items)
+
+Profile: -
+List(12) month variables(for each month, each will be added with the respective date untill the month end comes)
+
+
+////WORK PENDING
+
+ADMIN: -
+ 
+USER: -
+     ### resolve the get request from DB (user side) to put default usestate value from DB - pending
+
+
+
+

@@ -1,0 +1,27 @@
+
+#142850 Dark blue
+#3498DB light blue
+
+
+
+Resource Manegment
+
+the resources should be managed as they make a lot of difference.
+generally the food resources is wasted most in the abbsence of the people who eat daily, when the execess food is cooked. And also problem occurs when the food is not sufficient, to overcome this we came up with an idea.
+Our idea is to make a website that makes an interface between the food provider and the food consumer.
+through our website the consumers can intimate the food provider about their abbsence before the preparation of the food.
+also we make a statistics of the dishes on the basis of consumed quantity, so by this the food provider can estimate the quantity of the dishes that has to be prepared so that all the resources are consumed efficiently.
+like reducing the quantity of the less consumed dishes and increasing the quantity of more consumed dishes.
+we also make a feedback section so that the food providers can understand their performance.
+feedback section leads to improvement of the quality of the food.
+we also add a feature that is voting for the ocassional dishes, the dishes options will be there and the consumers can vote for their choice the majority wished dish is prepared.
+we also let the consumer for a dish request so by that that particular dish is prepared if possible.
+we provide a sick request feature, generally a sick person have a specific diet so he/she raises a sick request and the food provider considers the request and prepares the requested dish.
+
+this helps best in the dining system where the consumers are fixed for example in a company, or a community, or in institutuions etc.
+
+we will show statistical visualizations on the resources that are saved by each individual and this creates an impression on them so they will also actively invlove in the website and help the food provider to manage the resources.
+
+we will also list out the individuals who contributed their best in managing the resources and appricieate them by giviving the high priority in occational dish requests.
+
+all these sum up by regulating the resources and help the food providers managing the resources.

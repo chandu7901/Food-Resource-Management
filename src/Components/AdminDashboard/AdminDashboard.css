@@ -1,0 +1,65 @@
+#Info {
+  position: relative;
+  left: 10%;
+  height: 500px;
+  width: 20%;
+  color: black;
+  background-color: #3598db;
+  border-radius: 10px;
+  padding: 30px;
+}
+#Statistics {
+  float: left;
+  position: absolute;
+  left: 35%;
+  top: 11%;
+  height: 500px;
+  width: 55%;
+  color: black;
+  border-radius: 10px;
+  padding: 30px;
+  align-items: center;
+}
+.bargraph {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin: 40px;
+  text-align: center;
+}
+.piegraph {
+  height: 200px;
+  width: 330px;
+  float: left;
+  margin: 35px;
+  text-align: center;
+}
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.pie_para {
+  margin-top: -230px;
+  height: fit-content;
+}
+.pie_1 {
+  position: relative;
+  top: -53%;
+  left: -25%;
+  height: fit-content;
+}
+.pie_info {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  height: fit-content;
+  left: 65%;
+}
+.first {
+  background-color: #3598db;
+  top: -170%;
+}
+.second {
+  background-color: #205b83;
+  top: -150%;
+}

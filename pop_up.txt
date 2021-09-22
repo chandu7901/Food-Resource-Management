@@ -1,0 +1,13 @@
+<div style={{position: "absolute",marginLeft:'20px'}}><a href="/TimetableEdit"><img src={backArrow} width='30px' height='30px'></img></a></div>
+        <img style={{borderRadius: "50%", marginLeft: "43.5%", marginTop: "5%"}} src={Human} width='200px' height='200px'></img>
+        <br/>
+        <div className="box" style={{marginTop:'40px'}}>
+            <h1>Menu Updated Successfully</h1>
+            <br/>
+            <h4>Last Updated 10 minutes ago</h4>
+            <br></br>
+        
+         <button id="edit_btn">
+         <Link to="/TimetableEdit" style={{color:'white',textDecoration:'none'}}>Edit </Link> </button>
+           
+        </div>
